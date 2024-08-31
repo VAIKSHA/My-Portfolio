@@ -49,11 +49,14 @@ main hr{
 .v{
     font-size: 33px;
 }
+
+/* firstsection */
+/* firstsection */
 /* firstsection */
 .firstsection{
     display: flex;
     justify-content: space-around;
-    margin: 30px 0;
+    margin: 85px 0 40px 0;
     align-items: center;
 }
 .firstsection > div{
@@ -89,6 +92,9 @@ main hr{
 #element{
     color: rgb(160, 98, 219);
 }
+
+/* secondsection */
+/* secondsection */
 /* secondsection */
 .secondsection{
     max-width: 80vw;
@@ -133,6 +139,9 @@ main hr{
     width: 140px;
     font-size: 10px;
 }
+
+/* Third Section */
+/* Third Section */
 /* Third Section */
 .thirdsection{
     max-width: 80vw;
@@ -155,6 +164,10 @@ main hr{
     width: 300px;
     cursor: pointer;
 }
+
+
+/* fourth section */
+/* fourth section */
 /* fourth section */
 .fourthsection{
     max-width: 80vw;
@@ -231,25 +244,34 @@ main hr{
 
 
 /* footer */
+/* footer */
+/* footer */
 footer{
     background-color: #0e0e1a;
 }
 .footer{
     display: flex;
     padding: 23px 122px;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+}
+.footer .footer-first{
+    margin-left: 100px;
+}
+.footer .footer-second{
+    margin-left: 310px;
 }
 .footer ul{
     list-style: none;
 }
-.footer ul li a{
-    text-decoration: none;
-    color: gray;
+.footer ul{
+    display: flex;
+    justify-content: center;
 }
-.footer ul li a:hover{
-    color: white;
-    font-size: 1.05rem;
+.footer ul li a img{
+    width: 50px;
+    margin: 0 20px;
 }
+
 .footer > div{
     width: 200px;
 }
@@ -259,4 +281,15 @@ footer{
     justify-content: center;
     color: gray;
     padding: 12px 0;
+}
+
+
+
+/* ***************  Applying @Media Queries  **************** */
+/* ***************  Applying @Media Queries  **************** */
+/* ***************  Applying @Media Queries  **************** */
+/* ***************  Applying @Media Queries  **************** */
+/* ***************  Applying @Media Queries  **************** */
+@media screen (max-width=429px) {
+    
 }
