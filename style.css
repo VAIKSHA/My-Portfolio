@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 0, 28);
+    color: white;
+    font-family: 'poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(28, 28, 73);
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 50;
+}
+nav ul{
+    display: flex;
+    
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+    text-align: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(147, 147, 231);
+    font-size: 1.01rem;
+}
+main hr{
+    border: 0;
+    background-color: #9c97f1;
+    height: 1.2px;
+    margin: 60px 84px;
+}
+.left{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.v{
+    font-size: 33px;
+}
+/* firstsection */
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+    align-items: center;
+}
+.firstsection > div{
+    width: 33%;
+}
+.leftsection{
+    font-size: 2.8rem;
+    margin: 70px 0;
+}
+.leftsection .buttons{
+    padding: 50px 0;
+}
+.leftsection .btn{
+    padding: 12px;
+    background: #1e2167;
+    color: rgb(181, 181, 181);
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.leftsection .btn:hover{
+    background: #131542;
+    color: white;
+}
+.rightsection img{
+    width: 80%;
+    margin: 40px 0;
+}
+.purple{
+    color: rgb(160, 98, 219);
+}
+#element{
+    color: rgb(160, 98, 219);
+}
+/* secondsection */
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 75vh;
+}
+.secondsection h1{
+    font-size: 2rem;
+}
+.text-grey{
+    color: gray;
+}
+.secondsection .box{
+    display: flex;
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+}
+.secondsection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+.image-top{
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.vertical-text{
+    position: relative;
+    top: 70px;
+    width: 130px;
+}
+.vertical-desc{
+    position: relative;
+    top: 80px;
+    color: gray;
+    width: 140px;
+    font-size: 10px;
+}
+/* Third Section */
+.thirdsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 75vh;
+}
+.thirdsection{
+    font-size: 1.5rem;
+}
+.thirdsection .about{
+    margin: 10px 0;
+    font-size: 16px;
+    color: rgb(177, 177, 193);
+}
+.thirdsection .about-gallary{
+    display: flex;
+    margin: 30px 0 0 0;
+}
+.thirdsection .about-gallary .gall-img{
+    width: 300px;
+    cursor: pointer;
+}
+/* fourth section */
+.fourthsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 60vh;
+}
+.fourthsection h1{
+    font-size: 2.4rem;
+}
+.fourthsection .services{
+    justify-content: space-around;
+}
+.fourthsection .services .ser-img{
+    display: flex;
+    /* margin: 30px 0 0 0; */
+}
+.fourthsection .services .ser-img img{
+    width: 300px;
+    cursor: pointer;
+}
+.fourthsection .services ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fourthsection .services li{
+    justify-content: center;
+    list-style-type: none;
+    font-size: 16px;
+    /* margin: 28px 80px 0 80px; */
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 8px 6px;
+    cursor: pointer;
+}
+/* fifth section */
+.fifthsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 60vh;
+}
+.fifthsection h1{
+    font-size: 2.4rem;
+}
+.fifthsection .projects{
+    justify-content: space-around;
+}
+.fifthsection .projects .pro-img{
+    display: flex;
+    margin: 30px 0 0 0;
+}
+.fifthsection .projects .pro-img img{
+    width: 300px;
+    cursor: pointer;
+}
+.fifthsection .projects ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fifthsection .projects li{
+    justify-content: center;
+    list-style-type: none;
+    font-size: 16px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 8px 6px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/* footer */
+footer{
+    background-color: #0e0e1a;
+}
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+.footer ul{
+    list-style: none;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.footer ul li a:hover{
+    color: white;
+    font-size: 1.05rem;
+}
+.footer > div{
+    width: 200px;
+}
+.footer-rights{
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    color: gray;
+    padding: 12px 0;
+}
