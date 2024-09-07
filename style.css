@@ -33,7 +33,7 @@ nav ul li a{
     color: white;
 }
 nav ul li a:hover{
-    color: rgb(147, 147, 231);
+    color: wheat;
     font-size: 1.01rem;
 }
 
@@ -47,6 +47,15 @@ main hr{
     font-size: 1.5rem;
     cursor: pointer;
 }
+.right ul li{
+    padding: 4px 13px;
+    cursor: pointer;
+}
+.right ul li:hover{
+    box-shadow: 0 0 5px 2px rgb(180, 177, 177);
+    border-radius: 5px;
+}
+
 .v{
     font-size: 33px;
 }
@@ -76,7 +85,7 @@ main hr{
 .leftsection .btn{
     padding: 12px;
     background: #1e2167;
-    color: rgb(181, 181, 181);
+    color: rgb(171, 169, 169);
     border: 2px solid white;
     border-radius: 8px;
     font-size: 20px;
@@ -85,6 +94,8 @@ main hr{
 .leftsection .btn:hover{
     background: #131542;
     color: white;
+    box-shadow: 0 0 5px 2px rgb(208, 208, 208);
+    border-radius: 10px;
 }
 .rightsection > img{
     width: 80%;
@@ -132,6 +143,12 @@ main hr{
     position: relative;
     top: -57px;
     left: -9px;
+    opacity: 0.7;
+    transition: 0.1s;
+}
+.image-top:hover{
+    opacity: 1;
+    width: 35px;
 }
 
 .vertical-text{
@@ -139,12 +156,18 @@ main hr{
     top: 70px;
     width: 130px;
 }
+.vertical-text:hover{
+    font-weight: 430;
+}
 .vertical-desc{
     position: relative;
     top: 80px;
     color: gray;
     width: 140px;
     font-size: 10px;
+}
+.vertical-desc:hover{
+    color: wheat;
 }
 
 /* Third Section */
@@ -162,7 +185,7 @@ main hr{
 .thirdsection .about{
     margin: 10px 0;
     font-size: 16px;
-    color: rgb(177, 177, 193);
+    color: rgb(223, 215, 201);
 }
 .thirdsection .about-gallary{
     display: flex;
@@ -210,8 +233,9 @@ main hr{
 .fourthsection .services ul li:hover{
     background-color: #131542;
     color: white;
+    box-shadow: 0 0 5px 2px rgb(208, 208, 208);
+    border-radius: 10px;
 }
-
 .fourthsection .services .ser-img{
     display: flex;
     /* margin: 30px 0 0 0; */
@@ -271,6 +295,8 @@ main hr{
 .fifthsection .projects ul li:hover{
     background-color: #131542;
     color: white;
+    box-shadow: 0 0 5px 2px rgb(208, 208, 208);
+    border-radius: 10px;
 }
 .fifthsection .projects ul a{
     text-decoration: none;
@@ -339,7 +365,11 @@ footer{
 .footer ul li a img:hover{
     opacity: 1;
 }
-
+/* hover glow */
+.footer ul img:hover{
+    box-shadow: 0 0 5px 2px rgb(175, 175, 175);
+    border-radius: 8px;
+}
 .footer > div{
     width: 200px;
 }
